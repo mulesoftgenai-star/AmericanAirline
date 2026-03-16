@@ -1,3 +1,21 @@
 {
-  "minMuleVersion": "4.4.0"
+    "configs": [
+        "global.xml",
+        "interface.xml", 
+        "implementation.xml"
+    ],
+    "redeploymentEnabled": true,
+    "name": "american-airlines-api",
+    "classLoaderModelLoaderDescriptor": {
+        "attributes": {"exportedResources": []},
+        "id": "mule"
+    },
+    "minMuleVersion": "4.9.13",
+    "bundleDescriptorLoader": {
+        "attributes": {},
+        "id": "mule"
+    },
+    "javaSpecificationVersions": ["17"],
+    "requiredEntitlements": [],
+    "secureProperties": []
 }
